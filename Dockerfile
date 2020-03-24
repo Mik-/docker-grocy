@@ -22,7 +22,7 @@ RUN \
  cd /app && \
  git clone https://github.com/Mik-/grocy.git grocy && \
  cd /app/grocy && \
- git checkout small-fixes && \
+ git checkout scanner-enhancements && \
  cp -R /app/grocy/data/plugins \
 	/defaults/plugins && \
  echo "**** install composer packages ****" && \
